@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+html {
+	--lh: 1.5rem;
+	line-height: var(--lh);
+}
+@media (max-width: 1000px) {
+    .carousel-caption {
+        display: none!important;
+    }
+}
+.bg-teal {
+    background-color: #00CBCC;
+}
+.bg-yellow {
+    background-color: #EE9100;
+}
+.border-teal {
+	border-color: #00CBCC;
+}
+.border-yellow {
+	border-color: #EE9100;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 12%;
+}
+.text-teal {
+    color: #00CBCC;
+}
+.text-yellow {
+    color: #EE9100;
+}
+.nav-link {
+	color: white;
+}
+.nav-link:hover {
+	color: #DFDFDF;
+}
+.dropdown-item:hover {
+	background-color: #DDDDDD;
+}
+.social-link {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	margin-left: 1em;
+}
+.social-link:hover {
+	color: #DFDFDF;
+}
+.navbar-toggler {
+    background-color: #00b9b9;
+    border: 3px white;
+}
+.navbar-toggler:hover, .navbar-toggler:active,
+.navbar-toggler:focus {
+    background-color: #32f1f1;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+@media (max-width: 768px) {
+    .navbar-collapse.collapse.show {
+        transition: background 2s ease;
+    }
+    .navbar-encoger > .navbar-collapse.collapse.show {
+        background: rgba(0,0,0,0.7);
+        margin-top: 0.58em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 1em;
+    }
+}
+#navBar {
+    transition: background 2s ease;
+}
+#navBar img {
+    height: 40px;
+    width: 40px;
+}
+#navBar.navbar-encoger {
+	height: 50px;
+	background: rgba(0,0,0,0.7);
+}
+#navBar.navbar-encoger img {
+    height: 30px;
+    width: 30px;
+    transform: translateY(-5%);
+}
+#navBAr.navbar-encoger > a.navbar-brand {
+    padding-top: 0;
+}
+.navbar-brand {
+    padding: 0;
+}
+.card-title {
+    font-family: 'Merriweather', serif;
+}
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-bright-teal {
+    background-color: #32f1f1;
+}
+#regresar {
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+	width: 50px;
+	height: 35px;
+	text-align: center;
+	border: 1px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 30px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	transition: background-color .3s;
+	z-index: 1000;
+	padding-bottom: 8px;
+}
+#regresar span{
+	color: #999999;
+}
+#regresar:hover {
+	cursor: pointer;
+	background-color: #333;
+}
+#regresar:active {
+	background-color: #555;
+}
+.text-contacto {
+	margin: auto;
+}
+.titulos-contacto {
+	font-family: 'Merriweather', serif;
+	color: #00CBCC;
+}
+.titulos-contacto i {
+	color: #EE9100;
+	font-size: 1.5em;
+}
+.link-cv {
+	text-decoration: none;
+	color: black;
+}
+.link-cv:hover {
+	text-decoration: underline;
+}
+.nav-pills .nav-link {
+    color: black;
+}
+.nav-pills .nav-link.active {
+    background-color: #00cbcc;
+}
+.carousel-control-next, .carousel-control-prev {
+    color: #aaa;
+}
+.carousel-control-next:focus, .carousel-control-next:hover,
+.carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #bbb;
+}
+.bg-secondary {
+    background-color: #aaa!important;
+}
+.zoom {
+    transition: transform 1s;
+    position: relative;
+}
+.zoom img {
+    border-radius: 5px;
+    width: 230px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.zoom:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}

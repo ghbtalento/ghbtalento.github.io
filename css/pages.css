@@ -1,0 +1,24 @@
+.encabezado {
+    width: 100%;
+}
+.article-post {
+    margin-bottom: 4rem;
+}
+.article-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+.article-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+}
+.list-unstyled li a {
+    color: #00cbcc;
+    text-decoration: none;
+}
+.list-unstyled li a:hover {
+    color: #32f1f1;
+}
+.list-unstyled li i:hover {
+    color: #32f1f1;
+}
